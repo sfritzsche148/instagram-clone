@@ -1,0 +1,15 @@
+#loginIMG {
+    position: relative;
+    margin-left: 155px;
+    margin-top: 26px;    
+}
+
+#login {
+    background-image: "url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png)";
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 430px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
