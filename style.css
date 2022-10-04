@@ -1,15 +1,88 @@
-#loginIMG {
-    position: relative;
-    margin-left: 155px;
-    margin-top: 26px;    
+/* Login File */
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: baseline;
+    margin-top: calc(50% - 780px);
 }
 
-#login {
-    background-image: "url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png)";
+/* Left Div */
+#left {
+    background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
     background-repeat: no-repeat;
     height: 700px;
     width: 430px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} 
+    transform: scale(0.93)
+}
+
+/* Right Div */
+#right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    width: 300px;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: -100px;
+
+    border-style: groove;
+}
+
+
+#right p {
+    text-align: center;
+}
+
+#iglogo {
+    padding: 0px 50px 0px 50px;
+}
+
+#rightphoneimg {
+    position: relative;
+    top: 20px;
+    left: 155px;
+}
+
+/* Input for Usename, Email */
+#LoginNameInput {
+    width: 200px;
+    margin-left: 40px;
+}
+
+/* Login for password */
+#LoginPasswordInput {
+    width: 200px;
+    margin-left: 40px;
+}
+
+#right button {
+    width: 200px;
+    margin-left: 40px;
+}
+
+/* Footer Login.hmtl */
+footer {
+    color: gray;
+    text-align: center;
+    margin-left: 40px;
+    width: 1600px;
+}
+
+footer span {
+    margin: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+
+/* Home.js */
+#HomeLogo {
+    transform: scale(0.6);
+}
