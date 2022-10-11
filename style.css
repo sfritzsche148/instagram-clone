@@ -83,6 +83,58 @@ footer span {
 
 
 /* Home.js */
+
+/* Home Left Div */
+#HomeLeft {
+    float: left;
+    background-color: white;
+    height: 870px;
+    width: 300px;
+
+}
+
 #HomeLogo {
-    transform: scale(0.6);
+    transform: scale(0.55);
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+#HomeLiItem {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#sidLink {
+    color: black;
+    text-decoration: none;
+}
+
+#sidicon {
+    margin-right: 10px;
+}
+
+/*Home Right Div */
+#HomeCenter {
+    background-color: rgb(255, 255, 255);
+    width: 1100px;
+    height: 870px;
+}
+
+/* Story Div */ 
+#storys {
+    border-style: groove;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    margin-left: 700px;
+}
+
+
+/* Home Right Div */
+#HomeRight {
+    float: rigth;
+    margin-left: 1400px;;
+    height: 400px;
+    margin-top: -700px;
 }
